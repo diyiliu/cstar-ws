@@ -1,0 +1,488 @@
+[ ERROR] [2017-08-14 15:38:28] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:103)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:28] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:103)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:31] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:31] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:34] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:34] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:37] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:37] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:40] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:40] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:43] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:43] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:46] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:46] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:49] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:49] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:52] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:52] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:55] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:55] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is java.lang.NullPointerException
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:100)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+[ ERROR] [2017-08-14 15:38:56] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is org.springframework.jdbc.InvalidResultSetAccessException: PreparedStatementCallback; invalid ResultSet access for SQL [UPDATE bs_instructionlog t SET t.sendstatus = ? WHERE t.id = ?]; nested exception is java.sql.SQLException: 无效的列索引
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.jdbc.InvalidResultSetAccessException: PreparedStatementCallback; invalid ResultSet access for SQL [UPDATE bs_instructionlog t SET t.sendstatus = ? WHERE t.id = ?]; nested exception is java.sql.SQLException: 无效的列索引
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:645)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:866)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:937)
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:76)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+Caused by: java.sql.SQLException: 无效的列索引
+	at oracle.jdbc.driver.OraclePreparedStatement.setIntInternal(OraclePreparedStatement.java:4877)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectCritical(OraclePreparedStatement.java:8563)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:8286)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:9060)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObject(OraclePreparedStatement.java:9041)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setObject(OraclePreparedStatementWrapper.java:232)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2923)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_setObject(FilterAdapter.java:1298)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2920)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_setObject(FilterAdapter.java:1298)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2920)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.setObject(PreparedStatementProxyImpl.java:411)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setValue(StatementCreatorUtils.java:432)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValueInternal(StatementCreatorUtils.java:235)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValue(StatementCreatorUtils.java:166)
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.doSetValue(ArgumentPreparedStatementSetter.java:66)
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.setValues(ArgumentPreparedStatementSetter.java:47)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:871)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:866)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:629)
+	... 12 common frames omitted
+[ ERROR] [2017-08-14 15:38:56] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is org.springframework.jdbc.InvalidResultSetAccessException: PreparedStatementCallback; invalid ResultSet access for SQL [UPDATE bs_instructionlog t SET t.sendstatus = ? WHERE t.id = ?]; nested exception is java.sql.SQLException: 无效的列索引
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: org.springframework.jdbc.InvalidResultSetAccessException: PreparedStatementCallback; invalid ResultSet access for SQL [UPDATE bs_instructionlog t SET t.sendstatus = ? WHERE t.id = ?]; nested exception is java.sql.SQLException: 无效的列索引
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:645)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:866)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:937)
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:76)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+Caused by: java.sql.SQLException: 无效的列索引
+	at oracle.jdbc.driver.OraclePreparedStatement.setIntInternal(OraclePreparedStatement.java:4877)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectCritical(OraclePreparedStatement.java:8563)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:8286)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:9060)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObject(OraclePreparedStatement.java:9041)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setObject(OraclePreparedStatementWrapper.java:232)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2923)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_setObject(FilterAdapter.java:1298)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2920)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_setObject(FilterAdapter.java:1298)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2920)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.setObject(PreparedStatementProxyImpl.java:411)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setValue(StatementCreatorUtils.java:432)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValueInternal(StatementCreatorUtils.java:235)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValue(StatementCreatorUtils.java:166)
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.doSetValue(ArgumentPreparedStatementSetter.java:66)
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.setValues(ArgumentPreparedStatementSetter.java:47)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:871)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:866)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:629)
+	... 12 common frames omitted
+[ ERROR] [2017-08-14 15:42:48] org.quartz.core.JobRunShell[211] - Job DEFAULT.waitRespJobDetail threw an unhandled Exception: 
+org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is org.springframework.jdbc.InvalidResultSetAccessException: PreparedStatementCallback; invalid ResultSet access for SQL [UPDATE bs_instructionlog t SET t.sendstatus = ? WHERE t.id = ?]; nested exception is java.sql.SQLException: 无效的列索引
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.jdbc.InvalidResultSetAccessException: PreparedStatementCallback; invalid ResultSet access for SQL [UPDATE bs_instructionlog t SET t.sendstatus = ? WHERE t.id = ?]; nested exception is java.sql.SQLException: 无效的列索引
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:645)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:866)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:937)
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:76)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+Caused by: java.sql.SQLException: 无效的列索引
+	at oracle.jdbc.driver.OraclePreparedStatement.setIntInternal(OraclePreparedStatement.java:4877)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectCritical(OraclePreparedStatement.java:8563)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:8286)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:9060)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObject(OraclePreparedStatement.java:9041)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setObject(OraclePreparedStatementWrapper.java:232)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2923)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_setObject(FilterAdapter.java:1298)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2920)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_setObject(FilterAdapter.java:1298)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2920)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.setObject(PreparedStatementProxyImpl.java:411)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setValue(StatementCreatorUtils.java:432)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValueInternal(StatementCreatorUtils.java:235)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValue(StatementCreatorUtils.java:166)
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.doSetValue(ArgumentPreparedStatementSetter.java:66)
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.setValues(ArgumentPreparedStatementSetter.java:47)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:871)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:866)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:629)
+	... 12 common frames omitted
+[ ERROR] [2017-08-14 15:42:48] org.quartz.core.ErrorLogger[2425] - Job (DEFAULT.waitRespJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.scheduling.quartz.JobMethodInvocationFailedException: Invocation of method 'execute' on target class [class com.tiza.common.task.impl.WaitRespTask] failed; nested exception is org.springframework.jdbc.InvalidResultSetAccessException: PreparedStatementCallback; invalid ResultSet access for SQL [UPDATE bs_instructionlog t SET t.sendstatus = ? WHERE t.id = ?]; nested exception is java.sql.SQLException: 无效的列索引
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:266)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: org.springframework.jdbc.InvalidResultSetAccessException: PreparedStatementCallback; invalid ResultSet access for SQL [UPDATE bs_instructionlog t SET t.sendstatus = ? WHERE t.id = ?]; nested exception is java.sql.SQLException: 无效的列索引
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:645)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:866)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:937)
+	at com.tiza.common.task.impl.WaitRespTask.execute(WaitRespTask.java:76)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	... 3 common frames omitted
+Caused by: java.sql.SQLException: 无效的列索引
+	at oracle.jdbc.driver.OraclePreparedStatement.setIntInternal(OraclePreparedStatement.java:4877)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectCritical(OraclePreparedStatement.java:8563)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:8286)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:9060)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObject(OraclePreparedStatement.java:9041)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setObject(OraclePreparedStatementWrapper.java:232)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2923)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_setObject(FilterAdapter.java:1298)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2920)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_setObject(FilterAdapter.java:1298)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_setObject(FilterChainImpl.java:2920)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.setObject(PreparedStatementProxyImpl.java:411)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setValue(StatementCreatorUtils.java:432)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValueInternal(StatementCreatorUtils.java:235)
+	at org.springframework.jdbc.core.StatementCreatorUtils.setParameterValue(StatementCreatorUtils.java:166)
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.doSetValue(ArgumentPreparedStatementSetter.java:66)
+	at org.springframework.jdbc.core.ArgumentPreparedStatementSetter.setValues(ArgumentPreparedStatementSetter.java:47)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:871)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:866)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:629)
+	... 12 common frames omitted
