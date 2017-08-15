@@ -32,7 +32,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="cstar-ws_main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -51,6 +50,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="cstar-ws_main" />
     <orderEntry type="library" name="Gradle: io.netty:netty-all:4.1.11.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.2.5.RELEASE" level="project" />

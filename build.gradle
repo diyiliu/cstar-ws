@@ -45,6 +45,38 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.tiza.Main',
+                'Class-Path': 'resources/ resources/config lib/' + configurations.compile.collect { it.name }.join(' lib/')
+        )
+    }
+
+    // 过滤所有配置文件
+    sourceSets {
+        main {
+            resources {
+                exclude '*.*'
+                exclude '**/'
+            }
+        }
+    }
+
+    /* '胖'打包（包含所有jar）
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }*/
+}
+
+// 拷贝文件
+task copyJars(type: Copy) {
+    from configurations.runtime
+    into 'dist'
+}
+
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }

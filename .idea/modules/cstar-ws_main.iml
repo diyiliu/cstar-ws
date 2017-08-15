@@ -7,11 +7,13 @@
           <file>file://$MODULE_DIR$/../../src/main/resources/applicationContext.xml</file>
           <file>file://$MODULE_DIR$/../../src/main/resources/spring-cache.xml</file>
           <file>file://$MODULE_DIR$/../../src/main/resources/spring-task.xml</file>
+          <file>file://$MODULE_DIR$/../../src/main/resources/config/applicationContext.xml</file>
         </fileset>
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
@@ -40,7 +42,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/ojdbc6-11.2.0.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/tstar-datainterface-service-1.0.1-SNAPSHOT.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -49,7 +51,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/tstar-datainterface-service-1.0.1-SNAPSHOT.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/ojdbc6-11.2.0.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
