@@ -10,6 +10,7 @@ import javax.jws.WebService;
 import javax.xml.ws.Endpoint;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Description: M2Sender
@@ -31,7 +32,13 @@ public class M2Sender implements IM2Sender {
         Object param = content;
         if (StringUtils.isNotBlank(content)){
             try {
-                param = JacksonUtil.toObject(content, HashMap.class);
+                if (content.startsWith("{")){
+
+                    param = JacksonUtil.toObject(content, HashMap.class);
+                }else if (content.startsWith("[")){
+
+                    param = JacksonUtil.toObject(content, List.class);
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }

@@ -8,6 +8,7 @@ import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -26,10 +27,36 @@ public class CMD_04 extends M2DataProcess {
     @Override
     public byte[] pack(Header header, Object... argus) {
         M2Header m2Header = (M2Header) header;
-        Map paramMap = (Map) argus[0];
+        byte[] bytes = new byte[0];
 
-        int paramId = (int) paramMap.get("id");
-        Object paramVal = paramMap.get("value");
+        // 单个参数
+        if (argus[0] instanceof Map) {
+            Map paramMap = (Map) argus[0];
+            int paramId = (int) paramMap.get("id");
+            Object paramValue = paramMap.get("value");
+
+            bytes = toParse(paramId, paramValue);
+        }else if (argus[0] instanceof List){
+            List list = (List) argus[0];
+
+            byte[][] array = new byte[list.size()][];
+            for (int i = 0; i < list.size(); i++){
+                Map paramMap = (Map) list.get(i);
+
+                int paramId = (int) paramMap.get("id");
+                Object paramValue = paramMap.get("value");
+
+                array[i] = toParse(paramId, paramValue);
+            }
+            ByteBuf buf = Unpooled.copiedBuffer(array);
+
+            bytes = buf.array();
+        }
+
+        return headerToSendBytes(bytes, cmd, m2Header);
+    }
+
+    public  byte[] toParse(int paramId, Object paramVal){
 
         byte[] value;
         switch (paramId) {
@@ -57,12 +84,11 @@ public class CMD_04 extends M2DataProcess {
             default:
                 value = new byte[0];
         }
-
         ByteBuf buf = Unpooled.buffer(2 + 1 + value.length);
         buf.writeShort(paramId);
         buf.writeByte(value.length);
         buf.writeBytes(value);
 
-        return headerToSendBytes(buf.array(), cmd, m2Header);
+        return buf.array();
     }
 }

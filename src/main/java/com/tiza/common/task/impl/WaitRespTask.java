@@ -73,7 +73,7 @@ public class WaitRespTask implements ITask {
                         " SET t.sendstatus = ?" +
                         " WHERE t.id = ?";
 
-                jdbcTemplate.update(sql, new Object[]{Constant.SendStatus.TIMEOUT, new Date(), sendMSG.getId()});
+                jdbcTemplate.update(sql, new Object[]{Constant.SendStatus.TIMEOUT, sendMSG.getId()});
                 continue;
             }
 

@@ -152,6 +152,11 @@ public class CommonUtil {
     }
 
     public static String bytesToString(byte[] bytes) {
+        if (bytes.length < 1){
+
+            return "";
+        }
+
         StringBuffer buf = new StringBuffer();
         for (byte a : bytes) {
             buf.append(String.format("%02X", getNoSin(a))).append(" ");
