@@ -12,7 +12,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/../../out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/main">
@@ -42,7 +42,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/ojdbc6-11.2.0.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/tstar-datainterface-service-1.0.1-SNAPSHOT.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -51,7 +51,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/tstar-datainterface-service-1.0.1-SNAPSHOT.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/ojdbc6-11.2.0.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -76,6 +76,7 @@
     <orderEntry type="library" name="Gradle: org.apache.hbase:hbase-common:0.98.12-hadoop2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hbase:hbase-client:0.98.12-hadoop2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-clients:0.8.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.38" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.2.5.RELEASE" level="project" />

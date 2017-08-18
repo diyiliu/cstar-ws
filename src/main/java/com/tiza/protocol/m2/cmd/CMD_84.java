@@ -90,6 +90,9 @@ public class CMD_84 extends M2DataProcess {
             case 0x0A:
                 value = CommonUtil.bytesToLong(bytes) + "";
                 break;
+            case 0x0D:
+                value = CommonUtil.bytesToLong(bytes) + "";
+                break;
             case 0x12:
                 value = new String(bytes);
                 break;
